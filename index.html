@@ -273,5 +273,155 @@
             </div>
         </section>
     </main>
+
+    <!-- Job Detail Modal -->
+    <div id="jobModal" class="fixed inset-0 z-50 hidden overflow-y-auto">
+        <div class="flex items-center justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+            <!-- Background overlay with animation -->
+            <div class="fixed inset-0 transition-opacity" aria-hidden="true">
+                <div class="absolute inset-0 bg-gray-500 opacity-75"></div>
+            </div>
+
+            <!-- Modal content with animation -->
+            <div
+                class="inline-block align-bottom bg-white rounded-xl text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-4xl sm:w-full animate-slide-up">
+                <div class="bg-white px-6 pt-6 pb-4 sm:p-6 sm:pb-4">
+                    <div class="sm:flex sm:items-start">
+                        <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left w-full">
+                            <div class="flex justify-between items-start">
+                                <div>
+                                    <h3 id="modalTitle" class="text-2xl leading-6 font-bold text-gray-900">
+                                        Senior Frontend Developer
+                                    </h3>
+                                    <p id="modalCompany" class="mt-1 text-lg text-primary-600">TechCorp Inc.</p>
+                                </div>
+                                <button id="closeModal" class="text-gray-400 hover:text-gray-500 transition-colors">
+                                    <i class="fas fa-times text-2xl"></i>
+                                </button>
+                            </div>
+
+                            <div class="mt-4">
+                                <div class="flex flex-wrap gap-2 mb-4">
+                                    <span id="modalLocation"
+                                        class="px-3 py-1 bg-gray-100 text-gray-800 rounded-full text-sm flex items-center">
+                                        <i class="fas fa-map-marker-alt mr-1 text-primary-500"></i> San Francisco, CA
+                                    </span>
+                                    <span id="modalSalary"
+                                        class="px-3 py-1 bg-gray-100 text-gray-800 rounded-full text-sm flex items-center">
+                                        <i class="fas fa-dollar-sign mr-1 text-accent-500"></i> $90,000 - $120,000
+                                    </span>
+                                    <span id="modalType"
+                                        class="px-3 py-1 bg-gray-100 text-gray-800 rounded-full text-sm flex items-center">
+                                        <i class="fas fa-briefcase mr-1 text-secondary-500"></i> Full-time
+                                    </span>
+                                    <span id="modalExperience"
+                                        class="px-3 py-1 bg-gray-100 text-gray-800 rounded-full text-sm flex items-center">
+                                        <i class="fas fa-chart-line mr-1 text-primary-500"></i> Senior Level
+                                    </span>
+                                </div>
+
+                                <div class="border-t border-gray-200 pt-4">
+                                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                                        <div class="md:col-span-2">
+                                            <h4 class="font-semibold text-gray-900 mb-2 flex items-center">
+                                                <i class="fas fa-align-left text-primary-500 mr-2"></i> Job Description
+                                            </h4>
+                                            <p id="modalDescription" class="text-gray-700 mb-4">
+                                                We are looking for an experienced Frontend Developer to join our team...
+                                            </p>
+
+                                            <h4 class="font-semibold text-gray-900 mb-2 flex items-center">
+                                                <i class="fas fa-tasks text-secondary-500 mr-2"></i> Responsibilities
+                                            </h4>
+                                            <ul id="modalResponsibilities"
+                                                class="list-disc pl-5 text-gray-700 mb-4 space-y-1">
+                                                <li>Develop new user-facing features</li>
+                                                <li>Build reusable components and front-end libraries</li>
+                                                <li>Optimize applications for maximum performance</li>
+                                            </ul>
+
+                                            <h4 class="font-semibold text-gray-900 mb-2 flex items-center">
+                                                <i class="fas fa-check-circle text-accent-500 mr-2"></i> Requirements
+                                            </h4>
+                                            <ul id="modalRequirements"
+                                                class="list-disc pl-5 text-gray-700 mb-4 space-y-1">
+                                                <li>5+ years of experience with React</li>
+                                                <li>Strong JavaScript fundamentals</li>
+                                                <li>Experience with TypeScript</li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="bg-gray-50 p-4 rounded-lg">
+                                            <h4 class="font-semibold text-gray-900 mb-3 flex items-center">
+                                                <i class="fas fa-star text-yellow-500 mr-2"></i> Benefits
+                                            </h4>
+                                            <ul id="modalBenefits" class="space-y-3">
+                                                <li class="flex items-start">
+                                                    <i class="fas fa-heart text-red-400 mt-1 mr-2"></i>
+                                                    <span>Health, dental, and vision insurance</span>
+                                                </li>
+                                                <li class="flex items-start">
+                                                    <i class="fas fa-coins text-yellow-500 mt-1 mr-2"></i>
+                                                    <span>401(k) with company matching</span>
+                                                </li>
+                                                <li class="flex items-start">
+                                                    <i class="fas fa-calendar-alt text-blue-400 mt-1 mr-2"></i>
+                                                    <span>Flexible work hours and remote options</span>
+                                                </li>
+                                                <li class="flex items-start">
+                                                    <i class="fas fa-graduation-cap text-purple-500 mt-1 mr-2"></i>
+                                                    <span>Professional development budget</span>
+                                                </li>
+                                                <li class="flex items-start">
+                                                    <i class="fas fa-umbrella-beach text-green-500 mt-1 mr-2"></i>
+                                                    <span>Generous vacation policy</span>
+                                                </li>
+                                            </ul>
+
+                                            <div class="mt-6">
+                                                <h4 class="font-semibold text-gray-900 mb-2 flex items-center">
+                                                    <i class="fas fa-clock text-gray-500 mr-2"></i> Posted
+                                                </h4>
+                                                <p id="modalPosted" class="text-gray-700">2 days ago</p>
+                                            </div>
+
+                                            <div class="mt-6">
+                                                <h4 class="font-semibold text-gray-900 mb-2 flex items-center">
+                                                    <i class="fas fa-users text-gray-500 mr-2"></i> Applicants
+                                                </h4>
+                                                <div class="flex items-center">
+                                                    <div class="flex -space-x-2">
+                                                        <img class="w-8 h-8 rounded-full border-2 border-white"
+                                                            src="https://randomuser.me/api/portraits/women/44.jpg"
+                                                            alt="">
+                                                        <img class="w-8 h-8 rounded-full border-2 border-white"
+                                                            src="https://randomuser.me/api/portraits/men/32.jpg" alt="">
+                                                        <img class="w-8 h-8 rounded-full border-2 border-white"
+                                                            src="https://randomuser.me/api/portraits/women/68.jpg"
+                                                            alt="">
+                                                    </div>
+                                                    <span class="ml-2 text-sm text-gray-600">+12 applied</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 px-6 py-4 sm:px-6 sm:flex sm:flex-row-reverse">
+                    <a href="form.html"><button type="button"
+                        class="w-full inline-flex justify-center rounded-lg border border-transparent shadow-sm px-6 py-3 bg-gradient-to-r from-primary-500 to-secondary-500 text-base font-medium text-white hover:from-primary-600 hover:to-secondary-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 sm:ml-3 sm:w-auto sm:text-sm transition-all transform hover:scale-105">
+                        Apply Now <i class="fas fa-paper-plane ml-2"></i>
+                    </button></a>
+                    <button id="closeModalBtn" type="button"
+                        class="mt-3 w-full inline-flex justify-center rounded-lg border border-gray-300 shadow-sm px-6 py-3 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm transition-colors">
+                        Save for Later <i class="fas fa-bookmark ml-2"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
