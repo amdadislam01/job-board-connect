@@ -27,10 +27,9 @@ A sleek and responsive **Job Board Landing Page** built with **HTML** and **Tail
 
 ##  Screenshot
 
-> Add your screenshot here once ready:
 
 <p align="center">
-  <img src="https://i.postimg.cc/YOUR_IMAGE_LINK.png" alt="Job Board Connect Screenshot" width="800"/>
+  <img src="https://ik.imagekit.io/yqnbhdlo4/Img/jobnix?updatedAt=1755950382330" width="800"/>
 </p>
 
 ---
