@@ -1,65 +1,39 @@
 #  💼 Job Board Connect - Professional Career Platform
 
-A modern, responsive job board application connecting employers with top talent through an intuitive interface and powerful search capabilities.
+A sleek and responsive **Job Board Landing Page** built with **HTML** and **Tailwind CSS**. Designed to connect job seekers with employers through a clean, modern, and user-friendly interface.
 
-## 🌟 Live Demo
-https://img.shields.io/badge/View_Live_Demo-00C7B7?style=for-the-badge&logo=netlify&logoColor=white
-https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://amdadislam01.github.io/job-board-connect/)  
+[![Source Code](https://img.shields.io/badge/💻_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amdadislam01/job-board-connect)
 
-✨ Key Features
-🔍 Advanced Job Search
-Real-time search with instant results
+---
 
-Advanced filtering by location, salary, experience level
+##  Features
 
-Keyword-based search across job titles and descriptions
+-  Clean and intuitive hero section with clear call-to-action
+-  Job listings section with job title, company name, and location
+-  Responsive design tailored for mobile and desktop
+-  Built with Tailwind CSS for fast-loading and streamlined styling
+-  Lightweight and optimized for seamless user experience
 
-Save search preferences for quick access
+---
 
-👥 Dual User Experience
-Job Seekers: Browse opportunities, save favorites, apply directly
+##  Technologies Used
 
-Employers: Post jobs, manage listings, track applications
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,tailwindcss" alt="Tech Stack" width="180"/>
+</p>
 
-Separate dashboards for each user type
+---
 
-Role-based access control
+##  Screenshot
 
-📱 Modern Interface
-Fully responsive design (mobile-first approach)
+> Add your screenshot here once ready:
 
-Dark/Light mode toggle
+<p align="center">
+  <img src="https://i.postimg.cc/YOUR_IMAGE_LINK.png" alt="Job Board Connect Screenshot" width="800"/>
+</p>
 
-Accessibility compliant (WCAG 2.1)
+---
 
-Smooth animations and transitions
+##  Project Structure
 
-🛠 Technical Excellence
-Client-side form validation
-
-Session management and authentication
-
-Optimized performance with lazy loading
-
-SEO-friendly structure
-
-🛠 Technology Stack
-<p align="center"> <img src="https://skillicons.dev/icons?i=react,js,html,css,tailwind,netlify,github,vite" alt="Technology Stack" width="500"/> </p>
-Frontend Framework: React 18 with Hooks
-
-Build Tool: Vite for fast development
-
-Styling: Tailwind CSS with custom components
-
-Deployment: Netlify with CI/CD
-
-State Management: React Context API
-
-Routing: React Router v6
-
-📸 Application Preview
-🏠 Homepage Dashboard
-https://ik.imagekit.io/yqnbhdlo4/Img/job-board-home?updatedAt=1754893491375
-
-🔍 Job Search Interface
-https://ik.imagekit.io/yqnbhdlo4/Img/job-board-search?updatedAt=1754893491375
