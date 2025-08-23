@@ -1,4 +1,4 @@
-#  💼 Job Board Connect - Professional Career Platform
+#  💼 Job Board Connect 
 
 A sleek and responsive **Job Board Landing Page** built with **HTML** and **Tailwind CSS**. Designed to connect job seekers with employers through a clean, modern, and user-friendly interface.
 
