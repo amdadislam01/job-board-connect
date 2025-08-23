@@ -20,7 +20,7 @@ A sleek and responsive **Job Board Landing Page** built with **HTML** and **Tail
 ##  Technologies Used
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,tailwindcss,js,netlify,github" alt="Tech Stack" width="180"/>
+  <img src="https://skillicons.dev/icons?i=html,tailwindcss,js,netlify,github" alt="Tech Stack" width="320"/>
 </p>
 
 ---
