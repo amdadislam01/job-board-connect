@@ -35,5 +35,17 @@ A sleek and responsive **Job Board Landing Page** built with **HTML** and **Tail
 
 ---
 
-##  Project Structure
+
+
+##  Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/amdadislam01/job-board-connect.git
+
+# Navigate into project folder
+cd job-board-connect
+
+
+
 
